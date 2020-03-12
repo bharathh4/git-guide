@@ -1,6 +1,10 @@
-*************************
+**********
+Git guide
+**********
+
+#########################
 Configuring your setup
-*************************
+#########################
 
 Your config is stored in ~/.gitconfig. To list your config
 ::
@@ -47,5 +51,14 @@ A config file can be:
         name = John Doe
         email = jd@anc.com
         
-  
+#########
+Branches
+#########
+
+- To create your own local branch 
+  ::
+    git branch my_branch_name
     
+- To push your local branch to remote
+  ::
+    git push orgin my_branch_name
