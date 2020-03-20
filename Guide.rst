@@ -62,3 +62,18 @@ Branches
 - To push your local branch to remote
   ::
     git push orgin my_branch_name
+    
+- To rename a branch
+  ::
+    git branch -m <oldname> <newname>
+
+#########
+Merging
+#########
+
+There probably is a better way
+
+- To ignore local changes and pull from remote. Please ponder if losing local changes is ok
+  ::
+    git reset --hard
+    git pull origin master
