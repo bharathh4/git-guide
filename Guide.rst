@@ -59,6 +59,10 @@ Branches
   ::
     git branch my_branch_name
     
+- To switch to created branch
+  ::
+    git checkout my_branch_name
+    
 - To push your local branch to remote
   ::
     git push orgin my_branch_name
