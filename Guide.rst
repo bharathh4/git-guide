@@ -81,3 +81,18 @@ There probably is a better way
   ::
     git reset --hard
     git pull origin master
+
+
+###########################
+Checking to remote issues
+###########################
+
+- Sometimes the agent is not running or the private key is not added if you have setup public key on remote
+  ::
+      eval "$(ssh-agent -s)"
+      ssh-add ~/.ssh/yourkey.pem
+      
+      
+      
+
+
